@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+main h1{
+    background-color: rgba(255, 255, 255, 0.56);
+}
+
+body main section span{ 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.77);
+}
+
+.cursosIndex{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.66);
+    text-align: center;
+}
+.bannerBimbo{
+    text-align: center;
+
+}
+
+.navbar{
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.514);
+text-align: center;
+display: flex;
+justify-content: space-evenly;
+}
+
+.navbar li a{
+    color: black;
+    text-decoration: none;
+
+}
+.navbar li{
+    display: inline
+}
+.cursosIndex a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;    
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGVzdHVkaWFyfGVufDB8fDB8fHww);
+    background-repeat: none;
+    background-size: 100%;
+}
+
+.bodyAleman{
+    background-image: url(https://images.unsplash.com/photo-1595181766648-0d0fbe2142f5?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: none;
+    background-size: 100%;
+
+}
+
+.bodyCont{
+    background-image: url(https://media.istockphoto.com/id/1395272050/es/foto/mensaje-de-conexi%C3%B3n-de-comunicaci%C3%B3n-a-los-contactos-de-correo-electr%C3%B3nico-tel%C3%A9fono-concepto.jpg?s=1024x1024&w=is&k=20&c=_IJwx7t-hfdX_ouCaO-HFNZ0gH3tllWp8lsscuVaQcg=);
+    background-repeat: none;
+    background-size: 100%;
+
+}
+.bodyGui{
+    background-image: url(https://images.unsplash.com/photo-1541689592655-f5f52825a3b8?q=80&w=1850&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: none;
+    background-size: 100%;
+
+}
+
+
+.bodyIns{
+    background-image: url(https://media.istockphoto.com/id/1224371626/es/foto/teclado-port%C3%A1til-azul-de-primer-plano-con-bot%C3%B3n-de-registro-en-l%C3%ADnea.jpg?s=1024x1024&w=is&k=20&c=rlATjET3QZHtWJEm6fvqVmnyT2I08D6-M2OjHpwRJ7M=);
+    background-repeat: none;
+    background-size: 100%;
+
+}
+
+.bodyMake{
+    background-image: url(https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: none;
+    background-size: 100%;
+
+}
+
+.bodyNos{
+    background-image: url(https://plus.unsplash.com/premium_photo-1678453147886-3ea4eb762e8d?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: none;
+    background-size: 100%;
+
+}
+
+.bodyPer{
+    background-image: url(https://plus.unsplash.com/premium_photo-1682148866439-af4c07208d51?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: none;
+    background-size: 100%;
+
+}
+
+.imagePer{
+    width: 300px;
+    height: 340px;
+    border: 1px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.233);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.462);
+    text-align: center;
+}
+
+.imagePer div{
+    width: 100%;
+    height: 60%;
+}
+
+.imagePer img{ 
+    width: 100%;
+    height: 100%;
+
+}
+
+.titCursoOnline p{
+    color: white;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.433);
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgPatagonia{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.textoFoot p{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.375);
+}
+
+.textoh1{
+    text-align: center;
+}
+.cv ul li{
+    text-align: left;
+    margin-top: 5%;
+}
