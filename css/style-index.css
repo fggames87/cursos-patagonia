@@ -40,6 +40,13 @@ justify-content: space-evenly;
     text-decoration: none;
 
 }
+.navbar li a:visited{
+    color: rgb(115, 10, 115);
+}
+.navbar li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
 .navbar li{
     display: inline
 }
@@ -114,7 +121,12 @@ body{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.462);
     text-align: center;
 }
-
+.imagePer img{
+    filter: grayscale(1)
+}
+.imagePer img:hover{
+    filter:none
+}
 .imagePer div{
     width: 100%;
     height: 60%;
@@ -125,7 +137,22 @@ body{
     height: 100%;
 
 }
+.imagePerInfo{
+    color: black;
+}
 
+.boton{
+    color: black;
+    text-decoration: black;
+    background-color: black;
+}
+.boton :hover{
+    color: blue;
+}
+
+.boton:active{
+    background-color: chartreuse;
+}
 .titCursoOnline p{
     color: white;
 text-align: center;
@@ -156,4 +183,17 @@ background-color: rgba(0, 0, 0, 0.433);
 .cv ul li{
     text-align: left;
     margin-top: 5%;
+}
+
+form input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+form input:focus{
+    background-color: lightblue;
+    border: none;
+}
+
+form input::placeholder{
+    color: red;
 }
