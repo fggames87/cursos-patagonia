@@ -24,8 +24,10 @@ body main section span{
 }
 .bannerBimbo{
     text-align: center;
-
-
+}
+.bannerBimbo img{
+    width: 50%;
+    height: 50%;
 }
 
 .navbar{
