@@ -3,11 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
 }
 
-
+@media (max-width:1440px){
 main h1{
     background-color: rgba(255, 255, 255, 0.56);
 }
@@ -145,6 +143,22 @@ body{
     color: black;
 }
 
+.cardCursos{
+    width: 18rem;
+    height: 22rem;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+}
+.cardCursos img{
+    height: 12rem;
+}
+.card-body p{
+    color: black;
+}
+.card-body h5{
+    color: black;
+}
 .boton{
     color: black;
     text-decoration: black;
@@ -201,3 +215,91 @@ form input:focus{
 form input::placeholder{
     color: red;
 }
+
+}
+
+@media (max-width:768px){
+
+    .cardCursos{
+        width: 12rem;
+        height: 15rem;
+        background-color: white;
+        margin: 5px;
+        border-radius: 15px;
+    }
+
+    .cardCursos img{ 
+    height: 6rem;
+    }
+    .card-body p{
+        color: black;
+
+        font-size: small;
+
+    }
+    .card-body h5{
+        color: black;
+
+        font-size: small;
+    }
+    .botonCard{
+        font-size:small;
+    }
+
+    .imagePer {
+        height: 180px;
+        width: 180px;
+    }
+    .imagePerInfo h3{
+        font-size: smaller;
+    }
+    .textoFoot p{
+        font-size: smaller;
+    }
+} 
+
+@media (max-width:425px){
+
+    .cardCursos{
+        width: 8rem;
+        height: 12rem;
+        background-color: white;
+        margin: 5px;
+        border-radius: 15px;
+    }
+
+    .cardCursos img{ 
+    height: 5rem;
+    }
+    .card-body p{
+        color: black;
+
+        font-size: x-small;
+
+    }
+    .card-body h5{
+        color: black;
+
+        font-size: xx-small;
+    }
+    .botonCard{
+        font-size: x-small;
+    }
+.titCursoOnline p{
+    font-size: small;
+}
+.textoCurso span{
+    font-size: x-small;
+}
+
+.imagePer {
+    height: 100px;
+    width: 100px;
+}
+.imagePerInfo h3{
+    font-size: x-small;
+}
+.textoFoot p{
+    font-size: smaller;
+}
+} 
