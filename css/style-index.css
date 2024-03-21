@@ -338,9 +338,9 @@ form input::placeholder{
 
 }
 .cv1{
-    font-size: 5px;
+    font-size: 6px;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: -14px;
     list-style: none;
 
