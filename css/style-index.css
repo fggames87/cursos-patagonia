@@ -318,8 +318,8 @@ form input::placeholder{
 }
 
 .imagePer {
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     border-radius: 10px;
 }
 .imagePerInfo h3{
@@ -338,7 +338,7 @@ form input::placeholder{
 
 }
 .cv1{
-    font-size: 6px;
+    font-size: 7px;
     text-align: center;
     margin-top: 0px;
     margin-left: -14px;
