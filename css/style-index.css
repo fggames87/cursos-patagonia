@@ -5,7 +5,7 @@
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media (max-width:1440px){
+@media (max-width:2560px){
 main h1{
     background-color: rgba(255, 255, 255, 0.56);
 }
@@ -27,7 +27,20 @@ body main section span{
     width: 50%;
     height: 100px;
 }
+.barra {
+    background-color: rgba(45, 124, 185, 0.421);
+    font-size: xx-large;
+}
+.CP{
+    font-size: 140%;
+    font-style: italic;
+    color: rgb(3, 28, 109);
 
+}
+
+.textonegro p{
+    background-color: rgba(236, 242, 245, 0.673);
+}
 .navbar{
     list-style: none;
     background-color: rgba(255, 255, 255, 0.514);
@@ -49,7 +62,7 @@ justify-content: space-evenly;
     text-decoration: underline;
 }
 .navbar li{
-    display: inline
+    display:inline
 }
 .cursosIndex a{
     color: rgb(255, 255, 255);
@@ -223,6 +236,16 @@ form input::placeholder{
 
 @media (max-width:768px){
 
+    .barra {
+        background-color: rgba(45, 124, 185, 0.421);
+        font-size: x-large;
+    }
+    .CP{
+        font-size: 120%;
+        font-style: italic;
+        color: rgb(3, 28, 109);
+        margin-left: 35%;    
+    }
     .cardCursos{
         width: 12rem;
         height: 15rem;
@@ -285,6 +308,16 @@ form input::placeholder{
 
 @media (max-width:425px){
 
+    .barra {
+        background-color: rgba(45, 124, 185, 0.421);
+        font-size: 20px;
+    }
+    .CP{
+        font-size: 100%;
+        font-style: italic;
+        color: rgb(3, 28, 109);
+        margin-left: 27%;    
+    }
     .cardCursos{
         width: 8rem;
         height: 12rem;
