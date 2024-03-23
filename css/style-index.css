@@ -139,6 +139,7 @@ body{
 .cv1{ 
 margin-top: 35px;
 }
+
 .imagePer img{
     filter: grayscale(1)
 }
@@ -377,6 +378,9 @@ form input::placeholder{
     margin-left: -14px;
     list-style: none;
 
+}
+.cv2{
+    font-size: xx-small
 }
 .listaPer {
     list-style: none;
